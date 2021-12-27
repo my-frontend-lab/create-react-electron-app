@@ -1,0 +1,7 @@
+.App {
+  @apply h-screen flex items-center justify-center;
+}
+
+.App span {
+  @apply badge badge-primary;
+}
