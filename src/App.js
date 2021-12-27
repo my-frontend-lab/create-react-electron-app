@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <span>Hello Create React Electron App!!!</span>
+      <span>{window.API.greeting('Create React Electron App')}</span>
     </div>
   );
 }
